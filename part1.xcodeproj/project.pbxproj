@@ -14,6 +14,7 @@
 		6064256D19669991006F2F37 /* StudentInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6064256C19669991006F2F37 /* StudentInfo.m */; };
 		606425731966B376006F2F37 /* ShowMemberScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 606425721966B376006F2F37 /* ShowMemberScene.m */; };
 		606425751966CD04006F2F37 /* photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 606425741966CD04006F2F37 /* photo.png */; };
+		6076DF731984948D00303063 /* StudentSelectScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 6076DF721984948D00303063 /* StudentSelectScene.m */; };
 		8392007A18EE8E3300B6C429 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8392007918EE8E3300B6C429 /* GLKit.framework */; };
 		B71F5911188484E7003F4D28 /* iPad-old.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5907188484E7003F4D28 /* iPad-old.png */; };
 		B71F5912188484E7003F4D28 /* iPad-old@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5908188484E7003F4D28 /* iPad-old@2x.png */; };
@@ -75,6 +76,8 @@
 		606425711966B376006F2F37 /* ShowMemberScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShowMemberScene.h; path = Source/ShowMemberScene.h; sourceTree = "<group>"; };
 		606425721966B376006F2F37 /* ShowMemberScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShowMemberScene.m; path = Source/ShowMemberScene.m; sourceTree = "<group>"; };
 		606425741966CD04006F2F37 /* photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo.png; sourceTree = "<group>"; };
+		6076DF711984948D00303063 /* StudentSelectScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentSelectScene.h; sourceTree = "<group>"; };
+		6076DF721984948D00303063 /* StudentSelectScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentSelectScene.m; sourceTree = "<group>"; };
 		8392007918EE8E3300B6C429 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		B71F5907188484E7003F4D28 /* iPad-old.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old.png"; path = "Icons/iPad-old.png"; sourceTree = "<group>"; };
 		B71F5908188484E7003F4D28 /* iPad-old@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old@2x.png"; path = "Icons/iPad-old@2x.png"; sourceTree = "<group>"; };
@@ -170,6 +173,8 @@
 				6064255A19667D48006F2F37 /* AddMemberScene.m */,
 				606425711966B376006F2F37 /* ShowMemberScene.h */,
 				606425721966B376006F2F37 /* ShowMemberScene.m */,
+				6076DF711984948D00303063 /* StudentSelectScene.h */,
+				6076DF721984948D00303063 /* StudentSelectScene.m */,
 			);
 			name = scene;
 			sourceTree = "<group>";
@@ -408,6 +413,7 @@
 				602B41CC1967909A001FBF37 /* SceneSendParams.m in Sources */,
 				B737893F1807617C0076A88C /* AppDelegate.m in Sources */,
 				6064256D19669991006F2F37 /* StudentInfo.m in Sources */,
+				6076DF731984948D00303063 /* StudentSelectScene.m in Sources */,
 				B7378994180767190076A88C /* MainScene.m in Sources */,
 				6064255B19667D48006F2F37 /* AddMemberScene.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
